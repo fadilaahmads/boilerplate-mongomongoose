@@ -1,5 +1,7 @@
 require('dotenv').config();
 
+/** 1) Install and Set Up Mongoose*/
+
 
 let Person;
 
