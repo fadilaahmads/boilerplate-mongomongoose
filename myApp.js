@@ -1,6 +1,8 @@
 require('dotenv').config();
 
 /** 1) Install and Set Up Mongoose*/
+const mongoose = require('mongoose');
+const mongoURI = process.env['MONGO_URI']
 
 
 let Person;
