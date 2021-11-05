@@ -3,7 +3,8 @@ require('dotenv').config();
 /** 1) Install and Set Up Mongoose*/
 const mongoose = require('mongoose');
 const mongoURI = process.env['MONGO_URI']
-
+//Connect to mongodb
+mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 let Person;
 
